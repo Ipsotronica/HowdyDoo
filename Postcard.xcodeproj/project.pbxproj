@@ -13,6 +13,8 @@
 		5EB4D3F919F991B200486DD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EB4D3F819F991B200486DD1 /* Images.xcassets */; };
 		5EB4D3FC19F991B200486DD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EB4D3FA19F991B200486DD1 /* LaunchScreen.xib */; };
 		5EB4D40819F991B200486DD1 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB4D40719F991B200486DD1 /* PostcardTests.swift */; };
+		5EB4D41219F9995000486DD1 /* SagradaFamilia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EB4D41119F9995000486DD1 /* SagradaFamilia.jpg */; };
+		5EB4D41419F99F0900486DD1 /* stamp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5EB4D41319F99F0900486DD1 /* stamp.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		5EB4D40119F991B200486DD1 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB4D40619F991B200486DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB4D40719F991B200486DD1 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		5EB4D41119F9995000486DD1 /* SagradaFamilia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpg; sourceTree = "<group>"; };
+		5EB4D41319F99F0900486DD1 /* stamp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stamp.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		5EB4D3EF19F991B200486DD1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5EB4D41319F99F0900486DD1 /* stamp.jpeg */,
+				5EB4D41119F9995000486DD1 /* SagradaFamilia.jpg */,
 				5EB4D3F019F991B200486DD1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +201,8 @@
 				5EB4D3F719F991B200486DD1 /* Main.storyboard in Resources */,
 				5EB4D3FC19F991B200486DD1 /* LaunchScreen.xib in Resources */,
 				5EB4D3F919F991B200486DD1 /* Images.xcassets in Resources */,
+				5EB4D41219F9995000486DD1 /* SagradaFamilia.jpg in Resources */,
+				5EB4D41419F99F0900486DD1 /* stamp.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
