@@ -65,7 +65,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="31" y="83" width="281" height="104"/>
+                                    <rect key="frame" x="31" y="133" width="281" height="54"/>
                                 </variation>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stamp.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="78t-Tg-V59">
@@ -104,6 +104,15 @@
                                     <action selector="btnSendPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cf8-sZ-4Fq"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z4T-XN-ZnG">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="31" y="104" width="281" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -113,6 +122,7 @@
                                 <exclude reference="3fm-qB-LMw"/>
                                 <exclude reference="vZ8-vE-9Ex"/>
                                 <exclude reference="Jxc-8V-0Be"/>
+                                <exclude reference="z4T-XN-ZnG"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,12 +132,14 @@
                                 <include reference="3fm-qB-LMw"/>
                                 <include reference="vZ8-vE-9Ex"/>
                                 <include reference="Jxc-8V-0Be"/>
+                                <include reference="z4T-XN-ZnG"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="btnSend" destination="Jxc-8V-0Be" id="fOl-Kt-3AF"/>
                         <outlet property="lblMessage" destination="8Ru-3o-FvP" id="mj7-0o-oZZ"/>
+                        <outlet property="lblName" destination="z4T-XN-ZnG" id="COY-TD-eTf"/>
                         <outlet property="txtMessage" destination="vZ8-vE-9Ex" id="Uoz-gT-oAS"/>
                         <outlet property="txtName" destination="3fm-qB-LMw" id="lDK-vG-X0P"/>
                     </connections>
